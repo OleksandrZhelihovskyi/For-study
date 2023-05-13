@@ -30,9 +30,28 @@ form {
 .side{
     width:20%;
 }
+
 .mydiv {
     width: 420px;
     top:45%
+}
+.fontLabel {
+    font-size: 8px;
+    font-weight: 600;
+    color: gray
+}
+@media screen and (max-width: 820px) {
+    .fontLabel {
+        font-size: 12px;
+        font-weight: 600;
+        color: gray
+    }
+    .mydiv {
+        width: 85%
+    }
+    .btn {
+        font-size: 18px;
+    }
 }
 p {
     color: var( --bs-info-bg-subtle);
@@ -49,11 +68,8 @@ h5{
     margin-top:10px;
     margin-bottom:15px
 }
-label{
-    font-size:8px;
-    font-weight:600;
-    color:gray
-}
+
+
 .form-control {
     background-color: var(--bs-dark);
     padding-top: 0%;
